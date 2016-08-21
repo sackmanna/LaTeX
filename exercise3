@@ -1,0 +1,45 @@
+\documentclass{article}
+\title{Workshop Exercise 3}
+\author{Your Name Here}
+\date{25 August 2016} % OR \date{\today}
+\usepackage[utf8]{inputenc} % this is a common use package that you’ll find. It allows you to include international characters in your documents. 
+\usepackage{amsmath} % don't forget to add crucial packages - otherwise your script won't compile
+\usepackage{natbib} % add the natbib package once you're ready to play around with BibTEX
+\begin{document}
+\maketitle
+\section*{Introduction}
+Hello world! This is my first document. 
+In March 2006, Congress raised that ceiling an 
+additional \$0.79 trillion to \$8.97 trillion,
+which is approximately 68\% of GDP. As of October
+4, 2008, the ``Emergency Economic Stabilization
+Act of 2008`` raised the current debt ceiling
+to \$11.3 trillion \citep{Song2016Low} % add \citep{} when adding a citation at the end of a paragraph
+When I complete my work, I’ll have something to put here, but for now, I don’t have much. This is just a section holder. 
+\section*{Some basic Math Stuff}
+Using the \$ changes the way basic math looks in text. Let’s try an example starting here: Let a and b be distinct positive integers, and let c = a - b + 1. Now, let’s add the \$: Let $a$ and $b$ be distinct positive integers and let $c=a-b+1$.
+Let’s play around with superscript and subscript. $y=c_2 x^2+c_1 x +c_0$
+And we can use curly brackets to group superscripts and subscripts: $F_n=F_{n-1}+F_{n-2}$ % you can also write the \$\$ as \begin{math} and \end{math} , just make sure you take out the \$
+We can also use commands for Greek letters like $\mu$ and $\Omega$
+If you would like to display an equation on it’s own line, use the command:
+\begin{equation}
+x=\frac{-b\pm\sqrt{b^2-4ac}}
+{2a}
+\end{equation}
+\section*{More ``Advanced Math Stuff’’}
+\citet{Zhou2016Mott} % adjust your language and use \citet{} at the beginning of a section.
+Now we’re going to start using a new package that we’ve called in from the American Math Society called AMSmath. 
+\begin{equation} \label{eq1}
+\begin{split}
+A & = \frac{\pi r^2}{2} \\
+% = \frac{1}{2} \pi r^2
+\end{split}
+\end{equation}
+For this next equation, which is longer than one line, we’ll use the ``multline’’ environment.
+\begin{multline*}
+p(x)= 3x^6+14x^5y+590x^4y^2+19X^3y^3\\
+-12x^2y^4-12xy^5+2y^6-a^3b^3
+\end{multline*} % for more information on amsmath and these examples, visit https://www.sharelatex.com/learn/Aligning_equations_with_amsmath#Introduction
+\bibliography{2016UCB_fermion} % insert the file name here
+\bibliographystyle{plainnat} % insert the bibliography style here (make sure this matches up with the package you used above).
+\end{document}
