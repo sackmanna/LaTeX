@@ -1,5 +1,5 @@
 1.  \command: this is a control sequence which performs an action, such as \newpage. Always begins with a backslash (\) and is in lowercase letters. A command always needs to be followed by white space. 
-2.  environment: a LaTeX formatting environment
+2.  environment: a block of code with specific behavior depending on its type
 3.  package: a LaTeX package (most likely already installed in your editor)
 4.  CTAN: the comprehensive TeX archive network where you can go to install and download all this LaTeX
 5.  Markup: the term for printing, or how to lay the document out, or instructions or descriptions added to the document as guidelines for identification or formatting. 
