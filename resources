@@ -2,7 +2,7 @@ A few important LaTeX resources:
 
 1. For an excellent beginner introduction to LaTeX, visit: http://mirrors.ibiblio.org/CTAN/info/beginlatex/beginlatex-3.6.pdf
 
-2. For a list of commonly used packages, visit: http://www.howtotex.com/packages/9-essential-latex-packages-everyone-should-use/
+2. For a list of packages in the TeX Archive Network, visit: http://www.ctan.org/pkg 
 
 3. More information on AMSmath package: https://www.sharelatex.com/learn/Aligning_equations_with_amsmath#Introduction
 and on mathematical expressions:  https://www.sharelatex.com/learn/Mathematical_expressions
@@ -14,6 +14,6 @@ and on mathematical expressions:  https://www.sharelatex.com/learn/Mathematical_
   
 6. For overall excellent documentation on anything and everything LaTeX, visit the shareLaTeX documentation: https://www.sharelatex.com/learn/Main_Page
   
-  
+7. For information about Overleaf and ShareLaTeX at UC-Berkeley: http://guides.lib.berkeley.edu/write-cite
   
   
