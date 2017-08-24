@@ -1,6 +1,7 @@
 1.  \command: this is a control sequence which performs an action, such as \newpage. Always begins with a backslash (\) and is in lowercase letters. A command always needs to be followed by white space. 
-2.  environment: a block of code with specific behavior depending on its type
+2.  environment: a block of code with specific behavior depending on its type. Environments are used to format blocks of text and usually require \begin{}....\end{} to create the environment
 3.  package: a LaTeX package (most likely already installed in your editor)
 4.  CTAN: the comprehensive TeX archive network where you can go to install and download all this LaTeX
 5.  Markup: the term for printing, or how to lay the document out, or instructions or descriptions added to the document as guidelines for identification or formatting. 
 6.  argument: information to be acted upon (follows a command in the form of curly braces{}). For example, \begin{itemize} tells LaTeX that you want to begin a list of items.  
+7. Class: the type of document that controls the overall appearance and layout of the document (e.g. CV, article, book, report, poster, etc.)
