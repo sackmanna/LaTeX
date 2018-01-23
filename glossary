@@ -1,7 +1,14 @@
 1.  \command: this is a control sequence which performs an action, such as \newpage. Always begins with a backslash (\) and is in lowercase letters. A command always needs to be followed by white space. 
-2.  environment: a block of code with specific behavior depending on its type. Environments are used to format blocks of text and usually require \begin{}....\end{} to create the environment
-3.  package: a LaTeX package (most likely already installed in your editor)
+2.  environment: a block of code with specific behavior depending on its type. Environments are used to format blocks of text and usually require \begin{}....\end{} to create the environment. For example: 
+\begin{itemize}
+\item
+\item
+\item
+\end{itemize}
+(all items will appear in a bulleted list)
+3.  package: a LaTeX package (most likely already installed in your editor) - packages enable you to do more, like create bibliographies, insert images, and write formulas and figures. 
 4.  CTAN: the comprehensive TeX archive network where you can go to install and download all this LaTeX
 5.  Markup: the term for printing, or how to lay the document out, or instructions or descriptions added to the document as guidelines for identification or formatting. 
 6.  argument: information to be acted upon (follows a command in the form of curly braces{}). For example, \begin{itemize} tells LaTeX that you want to begin a list of items.  
 7. Class: the type of document that controls the overall appearance and layout of the document (e.g. CV, article, book, report, poster, etc.)
+8. preamble: the "brain" of the document - the premable is all of the text that sits above the command: \begin{document}. Content in the preamble defines how the document will look, how the document will be structured, and other features, like whether or not there will be a table of contents or a bibliography. 
